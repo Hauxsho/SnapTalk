@@ -50,38 +50,73 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="8dp"
+        tools:targetApi="lollipop">
 
         <EditText
             android:id="@+id/supName"
             android:layout_width="242dp"
             android:layout_gravity="center"
-            android:layout_height="72dp"
+            android:layout_height="50dp"
             android:hint="Name"
             android:textColor="#F1F0F2"
-            android:layout_marginTop="8dp"
             android:inputType="text"
             android:textColorHint="#A5A5A5"/>
         <EditText
             android:id="@+id/supEmail"
             android:layout_width="242dp"
             android:layout_gravity="center"
-            android:layout_height="72dp"
+            android:layout_height="50dp"
             android:hint="Email"
             android:textColor="#F1F0F2"
-            android:layout_marginTop="10dp"
+
             android:inputType="textWebEmailAddress"
             android:textColorHint="#A5A5A5"/>
         <EditText
             android:id="@+id/supPass"
             android:layout_width="242dp"
             android:layout_gravity="center"
-            android:layout_height="72dp"
+            android:layout_height="50dp"
             android:textColor="#F1F0F2"
             android:hint="Password"
-            android:layout_marginTop="10dp"
+
             android:inputType="textPassword"
             android:textColorHint="#A5A5A5"/>
+        <EditText
+            android:id="@+id/supDob"
+            android:layout_width="242dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:textColor="#F1F0F2"
+            android:hint="Password"
+
+            android:inputType="textPassword"
+            android:textColorHint="#A5A5A5"/>
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="78dp"
+                android:textColor="#A5A5A5"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Male"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#A5A5A5"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Female"/>
+        </RadioGroup>
 
     </LinearLayout>
 
@@ -104,7 +139,8 @@
             android:textColor="#FFFFFF"
             android:text="Signup"
             android:textSize="12dp"
-            />
+            android:elevation="8dp"
+            tools:targetApi="lollipop" />
 
     </LinearLayout>
 
