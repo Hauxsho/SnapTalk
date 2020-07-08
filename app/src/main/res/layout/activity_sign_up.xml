@@ -89,9 +89,9 @@
             android:layout_gravity="center"
             android:layout_height="50dp"
             android:textColor="#F1F0F2"
-            android:hint="Password"
+            android:hint="Dob"
 
-            android:inputType="textPassword"
+            android:inputType="number"
             android:textColorHint="#A5A5A5"/>
         <RadioGroup
             android:id="@+id/radiogroup"

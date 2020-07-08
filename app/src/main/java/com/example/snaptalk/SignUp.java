@@ -54,7 +54,6 @@ public class SignUp extends AppCompatActivity {
             }
         };
         radioGroup = (RadioGroup)findViewById(R.id.radiogroup);
-        final RadioButton mRadioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
         cont1 = (Button) findViewById(R.id.Scont);
         Email = (EditText) findViewById(R.id.supEmail);
         Pass = (EditText) findViewById(R.id.supPass);
@@ -70,6 +69,7 @@ public class SignUp extends AppCompatActivity {
                 final String email = Email.getText().toString();
                 final String password = Pass.getText().toString();
                 final String name = Name.getText().toString();
+                final RadioButton mRadioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
                 final String sex = mRadioButton.getText().toString();
                 final String dob = Dob.getText().toString();
                 mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(SignUp.this, new OnCompleteListener<AuthResult>() {
