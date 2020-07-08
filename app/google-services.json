@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455457186836",
+    "firebase_url": "https://snaptalk-84cd1.firebaseio.com",
+    "project_id": "snaptalk-84cd1",
+    "storage_bucket": "snaptalk-84cd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455457186836:android:0401d7ef959a3f882f3301",
+        "android_client_info": {
+          "package_name": "com.example.snaptalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455457186836-20ojrq5r7b8hoi7711rcrqns70i8ird5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snaptalk",
+            "certificate_hash": "95ba91c519556a2a6b92bd2d590361820877b412"
+          }
+        },
+        {
+          "client_id": "455457186836-slmcl7il04csd2rsg5oe2lboc9n97reu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvpr2DPzA39ZCGICMNZh0KWygs-2B8B4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455457186836-slmcl7il04csd2rsg5oe2lboc9n97reu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
